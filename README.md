@@ -1,20 +1,20 @@
 # running-information-analysis-service
-Project Title
+Project Title:
 
 Running Information Analysis Service:
 Part of Nike Running Tracking System.
 
-Getting Started
+Getting Started:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
+Prerequisites:
 
 docker
 Postman: A google chrome App
 
 
-Installing
+Installing:
 
 1. Download the entire project.
 2. Open a terminal, navigate to project folder. 
@@ -28,7 +28,7 @@ Installing
    "java -jar [project name]"
    Application starts succefully
    
-Running the tests
+Running the tests:
 1. Open Postman, Copy test.json file to the body of postman as raw and Json.
 2. Send POST command to http://localhost:8080/analysis
    Postman should show: Status 201 Created
@@ -42,6 +42,6 @@ Send GET command to http://localhost:8080/analysis/result?page=0
 Send DELETE command to http://localhost:8080/purge/{runningId}
 
 
-Built With
+Built With:
 
 Maven - Dependency Management
