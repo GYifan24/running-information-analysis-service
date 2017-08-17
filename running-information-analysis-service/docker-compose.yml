@@ -1,0 +1,9 @@
+mysql:
+  image: mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: "cs504"
+    MYSQL_DATABASE: "db_example"
+    MYSQL_USER: "springuser"
+    MYSQL_PASSWORD: "ThePassword"
+  ports:
+    - "6603:3306"

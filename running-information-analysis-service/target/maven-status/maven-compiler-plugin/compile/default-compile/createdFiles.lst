@@ -1,0 +1,7 @@
+hw/RunningInformationAnalysisServiceApplication.class
+hw/service/AnalysisService.class
+hw/service/AnalysisServiceImpl.class
+hw/domain/RunningInfoRepository.class
+hw/domain/UserInfo.class
+hw/domain/RunningInformation.class
+hw/rest/BulkUploadRestController.class
